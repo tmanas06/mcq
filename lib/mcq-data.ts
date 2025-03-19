@@ -710,4 +710,124 @@ export const mcqData = [
     },
     correctAnswer: "D",
   },
+  {
+    question: "Richard, an attacker, aimed to hack IoT devices connected to a target network. In this process, Richard recorded the frequency required to share information between connected devices. After obtaining the frequency, he captured the original data when commands were initiated by the connected devices. Once the original data were collected, he used free tools such as URH to segregate the command sequence. Subsequently, he started injecting the segregated command sequence on the same frequency into the IoT network, which repeats the captured signals of the devices. What is the type of attack performed by Richard in the above scenario?",
+    options: {
+      A: "Cryptanalysis attack",
+      B: "Reconnaissance attack",
+      C: "Side-channel attack",
+      D: "Replay attack",
+    },
+    correctAnswer: "D",
+  },
+  {
+    question: "Which of the following allows attackers to draw a map or outline the target organization's network infrastructure to know about the actual environment that they are going to hack?",
+    options: {
+      A: "Vulnerability analysis",
+      B: "Malware analysis",
+      C: "Scanning networks",
+      D: "Enumeration",
+    },
+    correctAnswer: "C",
+  },
+  {
+    question: "Your company was hired by a small healthcare provider to perform a technical assessment on the network. What is the best approach for discovering vulnerabilities on a Windows-based computer?",
+    options: {
+      A: "Use the built-in Windows Update tool",
+      B: "Use a scan tool like Nessus",
+      C: "Check MITRE.org for the latest list of CVE findings",
+      D: "Create a disk image of a clean Windows installation",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "Susan, a software developer, wants her web API to update other applications with the latest information. For this purpose, she uses a user-defined HTTP callback or push APIs that are raised based on trigger events; when invoked, this feature supplies data to other applications so that users can instantly receive real-time information. Which of the following techniques is employed by Susan?",
+    options: {
+      A: "Web shells",
+      B: "Webhooks",
+      C: "REST API",
+      D: "SOAP API",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "Which IOS jailbreaking technique patches the kernel during the device boot so that it becomes jailbroken after each successive reboot?",
+    options: {
+      A: "Tethered jailbreaking",
+      B: "Semi-untethered jailbreaking",
+      C: "Semi-tethered jailbreaking",
+      D: "Untethered jailbreaking",
+    },
+    correctAnswer: "D",
+  },
+  {
+    question: "Stella, a professional hacker, performs an attack on web services by exploiting a vulnerability that provides additional routing information in the SOAP header to support asynchronous communication. This further allows the transmission of web-service requests and response messages using different TCP connections. Which of the following attack techniques is used by Stella to compromise the web services?",
+    options: {
+      A: "Web services parsing attacks",
+      B: "WS-Address spoofing",
+      C: "SOAPAction spoofing",
+      D: "XML injection",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "Attacker Steve targeted an organization’s network with the aim of redirecting the company’s web traffic to another malicious website. To achieve this goal, Steve performed DNS cache poisoning by exploiting the vulnerabilities in the DNS server software and modified the original IP address of the target website to that of a fake website. What is the technique employed by Steve to gather information for identity theft?",
+    options: {
+      A: "Pharming",
+      B: "Skimming",
+      C: "Pretexting",
+      D: "Wardriving",
+    },
+    correctAnswer: "A",
+  },
+  {
+    question: "What is the port to block first in case you are suspicious that an IoT device has been compromised?",
+    options: {
+      A: "22",
+      B: "48101",
+      C: "80",
+      D: "443",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "Clark is a professional hacker. He created and configured multiple domains pointing to the same host to switch quickly between the domains and avoid detection. Identify the behavior of the adversary in the above scenario.",
+    options: {
+      A: "Unspecified proxy activities",
+      B: "Use of command-line interface",
+      C: "Data staging",
+      D: "Use of DNS tunneling",
+    },
+    correctAnswer: "A",
+  },
+  {
+    question: "What firewall evasion scanning technique makes use of a zombie system that has low network activity as well as its fragment identification numbers?",
+    options: {
+      A: "Packet fragmentation scanning",
+      B: "Spoof source address scanning",
+      C: "Decoy scanning",
+      D: "Idle scanning",
+    },
+    correctAnswer: "D",
+  },
+  {
+    question: "By performing a penetration test, you gained access under a user account. During the test, you established a connection with your own machine via the SMB service and occasionally entered your login and password in plaintext. Which file do you have to clean to clear the password?",
+    options: {
+      A: ".xsession-log",
+      B: ".profile",
+      C: ".bashrc",
+      D: ".bash_history",
+    },
+    correctAnswer: "D",
+  },
+  {
+    question: "Jack, a disgruntled ex-employee of Incalsol Ltd., decided to inject fileless malware into Incalsol's systems. To deliver the malware, he used the current employees' email IDs to send fraudulent emails embedded with malicious links that seem to be legitimate. When a victim employee clicks on the link, they are directed to a fraudulent website that automatically loads Flash and triggers the exploit. What is the technique used by Jack to launch the fileless malware on the target systems?",
+    options: {
+      A: "In-memory exploits",
+      B: "Legitimate applications",
+      C: "Script-based injection",
+      D: "Phishing",
+    },
+    correctAnswer: "D",
+  },
 ];
